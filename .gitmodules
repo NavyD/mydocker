@@ -1,3 +1,0 @@
-[submodule "docker-mdc"]
-	path = docker-mdc
-	url = git@github.com:NavyD/docker-mdc.git
