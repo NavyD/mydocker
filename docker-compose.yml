@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  gfriends-inputer:
+    image: navyd/gfriends-inputer
+    container_name: gfriends-inputer
+    # -q: skip prompt
+    command: -q --debug
+    environment:
+      - GF_HOST_API=949aaaaaaaaaaaa
+      - GF_HOST_URL=https://xxxx
