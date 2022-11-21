@@ -1,0 +1,3 @@
+[submodule "docker-mdc"]
+	path = docker-mdc
+	url = https://github.com/VergilGao/docker-mdc.git
