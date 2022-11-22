@@ -33,8 +33,9 @@ RUN set -eu; \
 
 FROM alpine:3.14
 ARG BIN_PATH
+ENV BIN_PATH=${BIN_PATH}
 COPY --from=builder ${BIN_PATH} ${BIN_PATH}
 VOLUME /data
 
 # ENTRYPOINT [ "rest-server", "--listen", "8000", "--path", "/data", "--append-only", "" ]
-ENTRYPOINT [ "${BIN_PATH}" ]
+ENTRYPOINT [ "rest-server" ]
