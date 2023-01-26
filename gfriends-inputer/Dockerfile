@@ -2,7 +2,7 @@
 # warn: Cannot run on alpine platform
 FROM python:3.9-slim
 
-ARG GFRIENDS_INPUTER_VERSION="3.03"
+ARG GFRIENDS_INPUTER_VERSION="3.04"
 
 ENV PROJECT_DIR="/gfriends-inputer"
 RUN set -eu; \
