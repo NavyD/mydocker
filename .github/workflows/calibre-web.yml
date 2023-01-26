@@ -36,5 +36,6 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: navyd/calibre-web:latest
+          # https://docs.docker.com/build/ci/github-actions/examples/#cache
           cache-from: type=registry,ref=navyd/calibre-web:latest
           cache-to: type=inline

@@ -2,7 +2,7 @@
 FROM johngong/calibre-web:0.6.19-5.35.0
 
 # # [calibre-web-douban-api 新版calibre-web已经移除douban-api了，添加一个豆瓣api实现](https://github.com/fugary/calibre-web-douban-api)
-ARG CALIBRE_WEB_DOUBAN_API_VERSION=1.1.0
+ARG CALIBRE_WEB_DOUBAN_API_VERSION=1.1.1
 
 RUN set -eu; \
     # 添加NewDouban插件 https://github.com/gshang2017/docker/blob/6004dd994eea4c0ecad51a09b1d5099f8581435a/calibre-web/Dockerfile#L56-L62
