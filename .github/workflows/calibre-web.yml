@@ -4,6 +4,7 @@ on:
   push:
     paths:
     - 'calibre-web/Dockerfile'
+    - '.github/workflows/calibre-web.yml'
   workflow_dispatch:
 
 jobs:
