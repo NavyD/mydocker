@@ -1,5 +1,5 @@
 # [calibre-web电子书管理带ebook-convert转换，并集成calibre的calibre-server服务](https://github.com/gshang2017/docker/tree/master/calibre-web)
-FROM johngong/calibre-web:0.6.19-5.35.0
+FROM johngong/calibre-web:0.6.20-5.44.0
 
 # # [calibre-web-douban-api 新版calibre-web已经移除douban-api了，添加一个豆瓣api实现](https://github.com/fugary/calibre-web-douban-api)
 ARG CALIBRE_WEB_DOUBAN_API_VERSION=1.1.2
